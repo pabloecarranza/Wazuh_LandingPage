@@ -1,0 +1,46 @@
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.LeftLogoSide {
+  width: 50%;
+
+  padding-left: 20px;
+}
+
+.RightmenuItems {
+  font-family: manrope;
+  width: 35%;
+}
+
+.IconsBarNavigate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.IconsBarNavigate a {
+  text-decoration: none;
+}
+
+.IconsBarNavigate a:hover {
+  color: blue;
+}
+
+.MainColorButton {
+  background-color: #fedd0b;
+  border-radius: 10px;
+  padding: 9px;
+  border: none;
+  font-family: manrope;
+}
+
+.MainColorButton:hover {
+  background-color: #fce550;
+  color: black;
+}

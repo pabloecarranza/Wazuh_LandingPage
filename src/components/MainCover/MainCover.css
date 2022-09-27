@@ -1,0 +1,37 @@
+.HomeCover {
+  background-image: url(../../assets/Home-slide-BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.CenterTextHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  color: white;
+  font-family: manrope;
+  text-align: center;
+}
+
+.CenterTextHome span:nth-child(1) {
+  font-size: 45px;
+  text-align: center;
+}
+.CenterTextHome a {
+  text-decoration: none;
+}
+
+.CompaniesLogos {
+  padding-top: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
