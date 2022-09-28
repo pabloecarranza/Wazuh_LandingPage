@@ -1,13 +1,16 @@
 import React from "react";
 import "./EndpointCloud.css";
+import Enpoint from "../../assets/Endpoint Security@4x.png";
 import Cloud from "../../assets/Cloud Security@4x.png";
+import Threat from "../../assets/Threat Intelligence@4x.png";
+import Security from "../../assets/Security Ops@4x.png";
 
 import { BsCheckLg } from "react-icons/bs";
 
 const cardsInfo = [
   {
     id: 1,
-    image: "Cloud",
+    image: Enpoint,
     title: "Endpoint Security",
     subtitle1: "Configuration Assessment",
     subtitle2: "Endpoint Detection & Response",
@@ -15,7 +18,7 @@ const cardsInfo = [
   },
   {
     id: 2,
-    image: "",
+    image: Threat,
     title: "Threat Intelligence",
     subtitle1: "Threat Hunting",
     subtitle2: "IT Hygiene",
@@ -23,7 +26,7 @@ const cardsInfo = [
   },
   {
     id: 3,
-    image: "",
+    image: Security,
     title: "Security Operations",
     subtitle1: "Log Data Analysis",
     subtitle2: "Malware Detection",
@@ -31,7 +34,7 @@ const cardsInfo = [
   },
   {
     id: 4,
-    image: "",
+    image: Cloud,
     title: "Cloud Security",
     subtitle1: "Posture Management",
     subtitle2: "Workload Protection",
@@ -57,7 +60,7 @@ export const EndpointCloud = () => {
         {cardsInfo.map((card) => (
           <div className="card" key={card.id}>
             <span className="imageCard">
-              <img src={Cloud} />
+              <img src={card.image} />
             </span>
             <span>{card.title}</span>
             <span>
