@@ -21,7 +21,7 @@ export const MainCover = () => {
             workloads.
           </span>
 
-          <span className="MainColorButton">
+          <span className="ButtonInstall">
             <a
               href="https://wazuh.com/install/"
               target="_blank"

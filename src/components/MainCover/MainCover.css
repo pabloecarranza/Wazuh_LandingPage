@@ -35,3 +35,16 @@
   width: 100%;
   justify-content: space-evenly;
 }
+
+.ButtonInstall {
+  background-color: #fedd0b;
+  border-radius: 10px;
+  padding: 5px 30px 5px 30px;
+  border: none;
+  font-family: manrope;
+}
+
+.ButtonInstall:hover {
+  background-color: #fce550;
+  color: black;
+}
