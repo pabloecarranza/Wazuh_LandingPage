@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Carousel.css";
 import Groupon from "../../assets/groupon-white.png";
+import Woop from "../../assets/woop-white.png";
 import Quottes from "../../assets/double-quotes.png";
 
 export default function SimpleSlider() {
@@ -12,7 +13,7 @@ export default function SimpleSlider() {
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     speed: 1000,
     autoplaySpeed: 3000,
   };
@@ -37,8 +38,25 @@ export default function SimpleSlider() {
           </div>
         </div>
       </div>
-      <div>
-        <h3>2asdasd</h3>
+      <div className="slideCardTwo">
+        <div className="WoopCard">
+          <div className="otherBoxMoreTwo">
+            <span>
+              <img src={Quottes} alt="Quottes" />
+              <img src={Woop} alt="Woop" />
+            </span>
+            <span>
+              In addition to the great advantage of being an open source
+              plataform, Wazuh is also easy to deploy, and its multiple
+              capabilities have allowed us to achieve our goal with security al
+              Woop. Wazuh is a unique tool ans it's perfect for startups like
+              Woop that are looking for top security at a competitive cost.{" "}
+              <br />
+              <br />
+            </span>
+            <span>Haithem Souala, Site Reliability Engineer</span>
+          </div>
+        </div>
       </div>
     </Slider>
   );
