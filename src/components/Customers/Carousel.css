@@ -1,0 +1,41 @@
+.slideCardOne {
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.GrouponCard {
+  height: 300px;
+  font-family: manrope;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.otherBoxMore {
+  border-radius: 20px;
+  width: 60%;
+  height: 90%;
+  background-color: #266bd2;
+  border-radius: 6%;
+  padding: 50px;
+}
+
+.otherBoxMore span {
+  color: white;
+  font-size: 13px;
+  line-height: 30px;
+}
+.otherBoxMore span img:nth-child(2) {
+  padding-bottom: 20px;
+}
+.otherBoxMore span img:nth-child(1) {
+  width: 190px;
+  padding-top: 30px;
+  padding-left: 550px;
+  position: absolute;
+}
