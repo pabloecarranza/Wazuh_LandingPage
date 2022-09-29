@@ -45,7 +45,7 @@ export const MainCover = () => {
         <span>
           <img src={walgreens} alt="walgreens" />
         </span>
-        <span>
+        <span className="NasaLogo">
           <img src={nasa} alt="nasa" />
         </span>
         <span>

@@ -36,6 +36,15 @@
   justify-content: space-evenly;
 }
 
+.CompaniesLogos img {
+  width: 140px;
+}
+
+.NasaLogo img {
+  padding-top: 12px;
+  width: 60px;
+}
+
 .ButtonInstall {
   background-color: #fedd0b;
   border-radius: 10px;

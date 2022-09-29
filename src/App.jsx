@@ -8,6 +8,7 @@ import { EndpointCloud } from "./components/EndpointCloud/EndpointCloud";
 import { XDRProtection } from "./components/XDRProtection/XDRProtection";
 import { Statistics } from "./components/Statistics/Statistics";
 import { Customers } from "./components/Customers/Customers";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <XDRProtection />
       <Statistics />
       <Customers />
+      <Footer />
     </>
   );
 }

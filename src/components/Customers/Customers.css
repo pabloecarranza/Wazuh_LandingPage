@@ -1,12 +1,12 @@
 .CustomersBox {
   width: 100%;
-  height: 250px;
+  height: 510px;
 }
 .titleCustomers {
   display: flex;
   justify-content: center;
   font-family: manrope;
-  font-size: 25px;
+  font-size: 23px;
   color: #266bd2;
   padding-bottom: 20px;
 }
