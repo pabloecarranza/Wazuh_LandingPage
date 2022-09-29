@@ -6,6 +6,7 @@ import { SocialMediaTopBar } from "./components/SocialMediaTopBar/SocialMediaTop
 import { MainCover } from "./components/MainCover/MainCover";
 import { EndpointCloud } from "./components/EndpointCloud/EndpointCloud";
 import { XDRProtection } from "./components/XDRProtection/XDRProtection";
+import { Statistics } from "./components/Statistics/Statistics";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <MainCover />
       <EndpointCloud />
       <XDRProtection />
+      <Statistics />
     </>
   );
 }

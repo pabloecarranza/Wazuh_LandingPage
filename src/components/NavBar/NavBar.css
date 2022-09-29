@@ -5,6 +5,11 @@
   justify-content: center;
   align-items: center;
   font-size: 15px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 2px 11px 14px -11px rgba(0, 0, 0, 0.192);
+  z-index: 9;
 }
 
 .LeftLogoSide {

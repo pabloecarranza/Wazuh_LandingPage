@@ -18,17 +18,30 @@ export const XDRProtection = () => {
         </div>
         <div className="storageImage"></div>
       </div>
-      {/* <div className="Bottom-HalfBox">
-        <div>//aqui background image</div>
-        <div>
-          <span>Explore the potential of Wazuh Cloud</span>
-          <span>
-            Wazuh has created an entirely new cloud-based architecture to reduce
-            complexity and improve security while providing stringer endpoint
-            protection.
-          </span>
+      <div className="Bottom-HalfBox">
+        <div className="storageImage2"></div>
+        <div className="Cloud-Text">
+          <div className="InnerTextCloud">
+            <span>
+              Explore the potential of <br /> Wazuh Cloud
+            </span>
+            <span>
+              Wazuh has created an entirely new cloud-based architecture to
+              reduce complexity and improve security while providing stringer
+              endpoint protection.
+            </span>
+            <span className="ButtonFreeTrial">
+              <a
+                href="https://console.cloud.wazuh.com/sign-up?landing=trial"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Start your free trial
+              </a>
+            </span>
+          </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

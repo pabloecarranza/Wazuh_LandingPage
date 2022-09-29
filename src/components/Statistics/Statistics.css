@@ -1,0 +1,23 @@
+.StatisticsBox {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: manrope;
+}
+
+.cardStats {
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer img {
+  padding-right: 20px;
+  width: 50px;
+}
+
+.textCointaner span:nth-child(1) {
+  font-weight: 600;
+  font-size: 20px;
+}
