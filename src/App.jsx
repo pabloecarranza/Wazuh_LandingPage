@@ -7,6 +7,7 @@ import { MainCover } from "./components/MainCover/MainCover";
 import { EndpointCloud } from "./components/EndpointCloud/EndpointCloud";
 import { XDRProtection } from "./components/XDRProtection/XDRProtection";
 import { Statistics } from "./components/Statistics/Statistics";
+import { Customers } from "./components/Customers/Customers";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <EndpointCloud />
       <XDRProtection />
       <Statistics />
+      <Customers />
     </>
   );
 }
