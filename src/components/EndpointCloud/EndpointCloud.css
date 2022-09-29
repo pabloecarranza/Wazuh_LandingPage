@@ -29,7 +29,6 @@
 }
 
 .card-Area {
-  /*  background-color: rgb(166, 166, 166); */
   height: 70%;
   width: 90%;
   display: flex;
@@ -39,7 +38,7 @@
 
 .card {
   padding-left: 20px;
-  width: 250px;
+  width: 240px;
   background-color: #ebf2fc;
   height: 300px;
   text-align: start;
@@ -70,4 +69,19 @@
   right: 110px;
   position: absolute;
   background-color: #ebf2fc;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-Area {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin-bottom: 60px;
+  }
+
+  .Principal-Endpoint-Box {
+    padding-bottom: 350%;
+  }
 }

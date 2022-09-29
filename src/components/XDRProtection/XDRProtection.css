@@ -134,3 +134,34 @@
   background-color: #fce550;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .SUP-HalfBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .XDR-Text {
+    width: 100%;
+  }
+  .storageImage {
+    width: 100%;
+  }
+
+  .Bottom-HalfBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .storageImage2 {
+    width: 100%;
+  }
+  .Cloud-Text {
+    width: 100%;
+  }
+
+  .XDRPrincipalBox {
+    padding-bottom: 100%;
+  }
+}

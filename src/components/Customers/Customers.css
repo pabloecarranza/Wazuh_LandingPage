@@ -10,3 +10,13 @@
   color: #266bd2;
   padding-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .CustomersBox {
+    padding-bottom: 260px;
+  }
+
+  .titleCustomers {
+    padding: 30px;
+  }
+}

@@ -21,3 +21,18 @@
   font-weight: 600;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .StatisticsBox {
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .cardStats {
+    display: flex;
+    padding-bottom: 30px;
+  }
+}

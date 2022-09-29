@@ -57,3 +57,10 @@
   background-color: #fce550;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .CompaniesLogos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

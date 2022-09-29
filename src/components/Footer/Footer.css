@@ -136,3 +136,34 @@
   text-decoration: none;
   color: #266bd2;
 }
+
+@media only screen and (max-width: 600px) {
+  .SupAreaFooter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .MediumAreaFooter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .cardOneFooter {
+    padding-top: 20px;
+    width: 140px;
+    padding-bottom: 20px;
+  }
+
+  .EndAreaFooter {
+    padding-top: 240px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .SocialMediaIconsFooter {
+    padding-top: 20px;
+    width: 30%;
+    padding-bottom: 30px;
+  }
+}

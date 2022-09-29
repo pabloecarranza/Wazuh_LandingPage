@@ -49,3 +49,34 @@
   background-color: #fce550;
   color: black;
 }
+
+@media only screen and (max-width: 600px) {
+  .LeftLogoSide {
+    width: 40%;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .IconsBarNavigate {
+    display: flex;
+    padding-right: 20px;
+    width: 100%;
+  }
+  .IconsBarNavigate span:nth-child(1) {
+    padding-right: 10px;
+  }
+  .IconsBarNavigate span:nth-child(2) {
+    padding-right: 10px;
+  }
+  .IconsBarNavigate span:nth-child(3) {
+    padding-right: 10px;
+  }
+
+  .MainColorButton {
+    display: none;
+  }
+}

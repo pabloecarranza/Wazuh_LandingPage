@@ -85,3 +85,27 @@
 .otherBoxMoreTwo span:nth-child(3) {
   font-weight: 600;
 }
+
+@media only screen and (max-width: 600px) {
+  .GrouponCard {
+    height: 60%;
+  }
+
+  .WoopCard {
+    height: 50%;
+  }
+
+  .otherBoxMore span img:nth-child(1) {
+    width: 190px;
+    padding-top: 120px;
+    padding-left: 770px;
+    position: absolute;
+  }
+
+  .otherBoxMoreTwo span img:nth-child(1) {
+    width: 190px;
+    padding-top: 120px;
+    padding-left: 770px;
+    position: absolute;
+  }
+}
