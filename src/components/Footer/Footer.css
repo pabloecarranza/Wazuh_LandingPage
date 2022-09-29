@@ -122,3 +122,17 @@
   width: 19px;
   height: 45px;
 }
+
+.IconFooter:hover {
+  color: #266bd2;
+}
+
+.TextFooter a {
+  text-decoration: none;
+  color: white;
+}
+
+.TextFooter a:hover {
+  text-decoration: none;
+  color: #266bd2;
+}

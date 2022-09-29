@@ -141,8 +141,24 @@ export const Footer = () => {
       <div className="EndAreaFooter">
         <div className="TextFooter">
           <span>© 2022 Wazuh, Inc.</span>
-          <span>Privacy</span>
-          <span>Terms of service</span>
+          <span>
+            <a
+              href="https://wazuh.com/general-privacy-statement/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Privacy
+            </a>
+          </span>
+          <span>
+            <a
+              href="https://wazuh.com/terms-of-use/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Terms of service
+            </a>
+          </span>
         </div>
         <div></div>
         <div className="SocialMediaIconsFooter">
