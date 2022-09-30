@@ -7,7 +7,7 @@ import Security from "../../assets/Security Ops@4x.png";
 
 import { BsCheckLg } from "react-icons/bs";
 
-const cardsInfo = [
+export const cardsInfo = [
   {
     id: 1,
     image: Enpoint,

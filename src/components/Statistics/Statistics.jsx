@@ -4,7 +4,7 @@ import Endpoints from "../../assets/Protected endpoints.png";
 import Enterprise from "../../assets/Enterprise users.png";
 import Downloads from "../../assets/Downloads per year.png";
 
-const statisticsInfo = [
+export const statisticsInfo = [
   {
     id: 1,
     image: Endpoints,
